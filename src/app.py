@@ -8,7 +8,7 @@ def hello_world():
     return 'Hello, Payppy! :)'
 
 @app.route('/Addtion')
-def Addition(num:a, num:b)->num:
+def Addition(a:int, b:int)->int:
     a = 4
     b = 5
     return  a+b   
