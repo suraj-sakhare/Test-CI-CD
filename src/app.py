@@ -7,11 +7,12 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello, Payppy! :)'
 
-@app.route('/Addtion')
-def Addition(a:int, b:int)->int:
+@app.route('/addition')
+def Addition()->str:
     a = 4
     b = 5
-    return  a+b   
+    ans = a+b
+    return  'The Sum Sum of {a} and {b} is {ans}'   
 
 
 
