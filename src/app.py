@@ -12,7 +12,7 @@ def Addition()->str:
     a = 4
     b = 5
     ans = a+b
-    return  "The Sum Sum of {a} and {b} is {ans}"   
+    return  f"The Sum Sum of {a} and {b} is {ans}"   
 
 
 
